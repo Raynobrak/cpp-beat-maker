@@ -6,6 +6,9 @@
       <Filter>SFMLApplicationBase</Filter>
     </ClCompile>
     <ClCompile Include="BeatMakerApp.cpp" />
+    <ClCompile Include="BeatBox.cpp" />
+    <ClCompile Include="BeatBoxInterface.cpp" />
+    <ClCompile Include="BeatBoxMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SFMLApplicationBase">
@@ -17,5 +20,8 @@
       <Filter>SFMLApplicationBase</Filter>
     </ClInclude>
     <ClInclude Include="BeatMakerApp.h" />
+    <ClInclude Include="BeatBox.h" />
+    <ClInclude Include="BeatBoxInterface.h" />
+    <ClInclude Include="BeatBoxMatrix.h" />
   </ItemGroup>
 </Project>
