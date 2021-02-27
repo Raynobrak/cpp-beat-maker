@@ -2,5 +2,20 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SFMLApplicationBase\SFMLApplicationBase.cpp">
+      <Filter>SFMLApplicationBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BeatMakerApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SFMLApplicationBase">
+      <UniqueIdentifier>{d35a7c1c-639b-48ec-a864-782e06af06cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFMLApplicationBase\SFMLApplicationBase.h">
+      <Filter>SFMLApplicationBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BeatMakerApp.h" />
   </ItemGroup>
 </Project>

@@ -145,7 +145,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BeatMakerApp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SFMLApplicationBase\SFMLApplicationBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BeatMakerApp.h" />
+    <ClInclude Include="SFMLApplicationBase\SFMLApplicationBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
